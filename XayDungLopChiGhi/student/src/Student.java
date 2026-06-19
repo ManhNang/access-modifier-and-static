@@ -6,10 +6,12 @@ public class Student {
         myClass = "C02";
     }
 
+    // TRUY CẬP PHƯƠNG THỨC setName (private) => Lỗi Biên dịch!
     private void setName(String newName) {
         name = newName;
     }
 
+    // TRUY CẬP PHƯƠNG THỨC setClasses (private) => Lỗi Biên dịch!
     private void setClasses(String newClass) {
         myClass = newClass;
     }
