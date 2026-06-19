@@ -6,11 +6,11 @@ public class Student {
         myClass = "C02";
     }
 
-    public void setName(String newName) {
+    protected void setName(String newName) {
         name = newName;
     }
 
-    public void setClasses(String newClass) {
+    protected void setClasses(String newClass) {
         myClass = newClass;
     }
 

@@ -12,11 +12,11 @@ public class Circle {
         color = "red";
     }
 
-    public double getRadius() {
+    protected double getRadius() {
         return radius;
     }
 
-    public double getArea() {
+    protected double getArea() {
         double pi = 3.14;
         return pi * Math.pow(radius, 2);
     }
